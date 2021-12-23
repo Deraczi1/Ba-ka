@@ -1,5 +1,11 @@
 # Baska
 
+**WEBHOOK - ustawiacie w server.lua**
+
+**CENE ZA LECZENIE - ustawiacie w server.lua**
+
+**KORDY  - ustawiacie w client.lua**
+
 [VIDEO](https://youtu.be/HqGdoLfFyDQ)
 
 *WYMAGANE SKRYPTY*
