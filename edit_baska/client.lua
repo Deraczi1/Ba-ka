@@ -1,6 +1,6 @@
-deraczi              = {}
+bachaa              = {}
 
-deraczi.Zones = {
+bachaa.Zones = {
 		Doctor =	{
 		pozycjapeda = {{x = 350.08, y = -590.55, z = 27.89, name = 'ped', h = 249.41, sprite = 51,	color = 59},},  
 		Lozko = {{x = 350.54, y = -594.29, z = 28.73, h = 56.82},},          
@@ -28,7 +28,7 @@ Citizen.CreateThread(function()
 	  
     end
 
-	for k,v in pairs(deraczi.Zones) do
+	for k,v in pairs(bachaa.Zones) do
 		for i = 1, #v.pozycjapeda, 1 do
 			local hospitalped =  CreatePed(4, 0xd47303ac, v.pozycjapeda[i].x, v.pozycjapeda[i].y, v.pozycjapeda[i].z-0.1, v.pozycjapeda[i].h, false, true)
 			SetEntityHeading(hospitalped, v.pozycjapeda[i].h)
@@ -45,7 +45,7 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(1)
 		local plyCoords = GetEntityCoords(PlayerPedId(), 0)
-		for k,v in pairs(deraczi.Zones) do
+		for k,v in pairs(bachaa.Zones) do
 			for i = 1, #v.Napis, 1 do
 		local distance = #(vector3(v.Napis[i].x, v.Napis[i].y, v.Napis[i].z) - plyCoords)
 		if distance < 10 then
