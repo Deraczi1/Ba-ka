@@ -6,7 +6,7 @@
 
 **KORDY  - ustawiacie w client.lua**
 
-[VIDEO](https://youtu.be/HqGdoLfFyDQ)
+[FILM](https://youtu.be/AU1fzjtfH48)
 
 *WYMAGANE SKRYPTY*
 
