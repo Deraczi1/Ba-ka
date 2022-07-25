@@ -8,9 +8,12 @@
 
 [FILM](https://youtu.be/AU1fzjtfH48)
 
+
+
 *WYMAGANE SKRYPTY*
 
 [mythic_progbar](https://github.com/HalCroves/mythic_progbar)
 
 [esx_ambulancejob](https://github.com/lockdownstudio/esx_ambulancejob)
 
+*NIE POMAGA W RAZIE PROBLEMÓW*
